@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class quictoi {
+
+	public static void main(String[] args) {
+		Scanner kb = new Scanner(System.in);
+		Graph g = new Graph(1001);
+		int n;
+		n=kb.nextInt();
+		
+		for(int i = 0; i<n ; i++) {
+			g.addEdge(kb.nextInt(), kb.nextInt());
+		}
+		
+	}
+
+}
